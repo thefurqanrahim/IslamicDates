@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/IslamicDates/static/css/main.d43a5df4.css",
+    "main.js": "/IslamicDates/static/js/main.bfeec307.js",
+    "static/media/Masjid-ul-Haram-1.jpg": "/IslamicDates/static/media/Masjid-ul-Haram-1.a4893190cb0a7827bce4.jpg",
+    "index.html": "/IslamicDates/index.html",
+    "main.d43a5df4.css.map": "/IslamicDates/static/css/main.d43a5df4.css.map",
+    "main.bfeec307.js.map": "/IslamicDates/static/js/main.bfeec307.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d43a5df4.css",
+    "static/js/main.bfeec307.js"
+  ]
+}
