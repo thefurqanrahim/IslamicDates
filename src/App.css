@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  /* background-color: #000; */
+  background: url("./Images/Masjid-ul-Haram-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+h1{
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width : 488px) {
+  h1{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width : 329px) {
+  h1{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width : 300px) {
+  h1{
+    font-size: 29px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+h4{
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div{
+  /* padding: 20px; */
+  margin: 10px;
+}
+div h2{
+  margin: 10px;
+  font-weight: bolder;
+}
+.container{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  color: #fff;
+  margin-top: 30px;
 }
